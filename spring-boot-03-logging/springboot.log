@@ -1,0 +1,11 @@
+2020-01-04 15:51:32.553  INFO 11352 --- [main] .a.s.SpringBoot03LoggingApplicationTests : Starting SpringBoot03LoggingApplicationTests on DEEP-2019NFHDBB with PID 11352 (started by QYF in D:\springboot\spring-boot-03-logging)
+2020-01-04 15:51:32.556 DEBUG 11352 --- [main] .a.s.SpringBoot03LoggingApplicationTests : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-04 15:51:32.559  INFO 11352 --- [main] .a.s.SpringBoot03LoggingApplicationTests : No active profile set, falling back to default profiles: default
+2020-01-04 15:51:34.376  INFO 11352 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 15:51:34.706  INFO 11352 --- [main] .a.s.SpringBoot03LoggingApplicationTests : Started SpringBoot03LoggingApplicationTests in 2.954 seconds (JVM running for 4.455)
+2020-01-04 15:51:35.111 TRACE 11352 --- [main] .a.s.SpringBoot03LoggingApplicationTests : 这是trace日志。。。
+2020-01-04 15:51:35.112 DEBUG 11352 --- [main] .a.s.SpringBoot03LoggingApplicationTests : 这是debug日志。。。
+2020-01-04 15:51:35.112  INFO 11352 --- [main] .a.s.SpringBoot03LoggingApplicationTests : 这是info日志。。。
+2020-01-04 15:51:35.112  WARN 11352 --- [main] .a.s.SpringBoot03LoggingApplicationTests : 这是warn日志。。。
+2020-01-04 15:51:35.112 ERROR 11352 --- [main] .a.s.SpringBoot03LoggingApplicationTests : 这是error日志。。。
+2020-01-04 15:51:35.133  INFO 11352 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

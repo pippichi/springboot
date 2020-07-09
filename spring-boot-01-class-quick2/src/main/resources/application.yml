@@ -1,0 +1,31 @@
+server:
+  port: 8081
+spring:
+  profiles:
+    active: dev
+
+#person:
+##  lastName: zhangsan
+##  或者:
+#  last-name: zhangsan
+#  age: 18
+#  boss: false
+#  birth: 2017/12/12
+#  maps: {k1: v1,k2: v2}
+#  lists:
+#    - lisi
+#    - zhaoliu
+#  dog:
+#    name: 小黑狗
+#    age: 2
+##  现在把yaml注释掉，将该配置写入properties
+---
+server:
+  port: 8082
+spring:
+  profiles: dev
+---
+server:
+  port: 80
+spring:
+  profiles: prod
